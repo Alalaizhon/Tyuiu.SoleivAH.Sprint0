@@ -26,6 +26,7 @@ namespace Tyuiu.SoleivAH.Sprint0.Task5.V0.Test
             Assert.AreEqual(50, DataService.Multiplication(10, 5));
         }
 
+        [TestMethod]
         public void CheckedDivisionValid()
         {
             Assert.AreEqual(3, DataService.Division(9, 3));
